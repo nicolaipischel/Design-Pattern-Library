@@ -1,0 +1,3 @@
+﻿The problem here is that the ChocolateBoiler can be instantiated more than once 
+
+-
