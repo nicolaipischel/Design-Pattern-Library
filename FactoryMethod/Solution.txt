@@ -1,0 +1,9 @@
+﻿
+Factory - defines an interface for creating an object but lets subclasses decide which class to instantiate.
+Factory methods lets a class defer instantiation to subclasses.
+
+- the factorz method returns a product that is typically used withing methods defined in the super class.
+- It encapsulated product knowledge into each creator. This is a class that contains the implementations
+  for all of the methods to manipulate the product except the factory method. (aka. internal)
+- The concrete creator implement the factory methods which is the method that actually produces the product.
+
