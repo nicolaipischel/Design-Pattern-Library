@@ -1,7 +1,11 @@
 ﻿Singleton - ensures a class has only one instance, and provides a global point of access to it.
 The biggest challenge for singleton objects is that they need to be thread safe. This can be achieved in multiple ways.
 
-- using lock (simple thread-safety) => Performance impact
-- double-check locking => Reduced performance impact
-- lazy instantiation => compiler marks as beforefieldinit
-- fully lazy instatiation => compiler does not mark as beforefieldinit
+- Examine your pefermance and resource constraints and carefully choose an appropriate singleton implementation
+
+	- using lock (simple thread-safety) => massive Performance impact
+	- double-check locking => Reduced performance overhead but greater implementation overhead
+	- lazy instantiation => compiler marks as beforefieldinit (workaround is static constructor) (currently implemented)
+	- fully lazy instatiation => compiler does not mark as beforefieldinit
+
+
