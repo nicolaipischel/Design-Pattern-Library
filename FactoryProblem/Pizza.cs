@@ -1,4 +1,4 @@
-namespace SimpleFactory;
+namespace FactoryProblem;
 public class Pizza
 {
   public virtual void Prepare() => Console.WriteLine("Pizza is being prepared");
