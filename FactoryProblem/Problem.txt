@@ -1,0 +1,8 @@
+﻿The problem with this approach is that it has some disadvantages:
+
+- We have to modify internal code each time a new pizza type gets added or removed to/from the store 
+  since this is a vital part of our application this logic may be duplicated a lot of times over the overall application code.
+  Resulting in a bunch of locations that need to change each time a new pizza type gets added.
+
+- We mix code that stays the same with code that varies over time. 
+  ex. The code for the preperation of the pizza will mostly stay the same while the types may vary.
