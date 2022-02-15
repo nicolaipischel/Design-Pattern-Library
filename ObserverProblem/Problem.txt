@@ -1,0 +1,11 @@
+﻿This approach has a lot of disadvantages:
+
+- We are coding to concrete implementations rather than interfaces (abstractions).
+- For every new display element we need to alter existing code.
+- We have no way to add or remove display elements at run time.
+- The display elements don't implement a common interface.
+- We haven't encapsulated the part that changes.
+
+Using an Interface (IQuackable, IFlyable) to separate out the flying and quacking behaviours from the duck class is also not really an Option because
+you would need to rewrite the code in every class that implements the interface.
+Especially when there are more than one type of flying/quacking behavior

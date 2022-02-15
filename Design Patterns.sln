@@ -6,6 +6,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyProblem", "StrategyProblem\StrategyProblem.csproj", "{63A115EB-7BF8-4455-BF11-87E96F6C6556}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverProblem", "ObserverProblem\ObserverProblem.csproj", "{B41EFA0E-60E7-48C1-9AC7-B54B2C3C02F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
