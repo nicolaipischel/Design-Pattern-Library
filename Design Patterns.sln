@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverProblem", "Observer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoraterProblem", "DecoraterProblem\DecoraterProblem.csproj", "{87FFA31F-0690-43E2-903F-23C58FA53AD1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{8A646F73-FE3D-47E6-A296-B4BC9E385022}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryProblem", "FactoryProblem\FactoryProblem.csproj", "{DBE78950-164C-48D6-A6CD-ABE26C7E4F1D}"
 EndProject
 Global

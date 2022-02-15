@@ -1,0 +1,5 @@
+﻿The Simple Factory isn't actually a Design Pattern; it's more of a programming idiom.
+
+- The simple factory is the first step in the right direction towards the Factory Method Pattern
+- The remaining problem with that approach is that the stores are kinda in their own world.
+  Each store and factory can diverge in a different direction and each pizza is made differently and steps can be missed.
