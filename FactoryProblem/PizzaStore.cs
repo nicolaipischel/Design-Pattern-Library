@@ -1,3 +1,5 @@
+using SimpleFactory;
+
 namespace FactoryProblem;
 
 public class PizzaStore

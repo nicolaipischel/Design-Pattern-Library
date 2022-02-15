@@ -1,6 +1,6 @@
-namespace SimpleFactory.Franchise.NYStyle;
+namespace FactoryProblem;
 
-public class NYStyleVeggiePizza : Pizza
+public class VeggiePizza : Pizza
 {
   public override void Prepare() =>
     Console.WriteLine("Pizza is being prepared with tasty sauce, fresh avocados, goat cheese and artichokes hearts");
