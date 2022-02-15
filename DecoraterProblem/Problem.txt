@@ -1,0 +1,12 @@
+﻿This approach has some flaws in it:
+
+- Price changes for condiments will force us to alter existing code.
+- New condiments will force us to add new methods and alter the cost method in the superclass
+- We may have new beverages. For some of these beverages (ex. iced tea), these condiments may not be approriate
+  like the "Tea" subclass will still inherit methods like HasWhip().
+- The display elements don't implement a common interface.
+- We haven't encapsulated the part that changes.
+
+Using an Interface (IQuackable, IFlyable) to separate out the flying and quacking behaviours from the duck class is also not really an Option because
+you would need to rewrite the code in every class that implements the interface.
+Especially when there are more than one type of flying/quacking behavior
